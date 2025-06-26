@@ -1,0 +1,141 @@
+<mxfile host="65bd71144e">
+    <diagram id="FtAs3nRBM2NE8-JEvT-a" name="Page-1">
+        <mxGraphModel dx="1146" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="MInimum bit flip to convert a number" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="50" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="start = 10&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="goal = 7" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="001010" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="00111" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="three bits need to be change" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" source="16" target="18" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" source="16" target="20" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="start = 3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" source="18" target="22" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="goal = 4" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" source="20" target="22" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="0011" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" source="22" target="23" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="00100" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="3bits need to be changes" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="XOR" style="edgeStyle=none;html=1;" edge="1" source="25" target="26" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="001010" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="26" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="26" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="00111" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="set the 1 in place wher ethe bit chnagesd" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="count number of set bits" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="1020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="31" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="31" target="41">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="ans = n1 XOR n2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="count = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="35" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="for i = 0 to 2 pow 31&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="1010" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="37" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="if (ans &amp;amp; (1 &amp;lt;&amp;lt; 2)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="1020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="39" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="680" y="1130"/>
+                            <mxPoint x="320" y="1130"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="count ++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="1020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="get the number of set bits by dividing the number" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="loop" style="text;strokeColor=#d79b00;align=center;fillColor=#ffe6cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="1090" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
